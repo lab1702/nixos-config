@@ -7,7 +7,5 @@ Initial config on fresh installation of NixOS
     cd
     nix-env -i git
     git clone https://github.com/lab1702/nixos-config.git
-    cd nixos-config
-    sudo cp configuration.nix /etc/nixos/configuration.nix
-    cd /etc/nixos
+    sudo cp nixos-config/configuration.nix /etc/nixos/configuration.nix
     sudo nixos-rebuild switch
