@@ -85,6 +85,7 @@
     description = "lab";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
+      firefox
     ];
   };
 
@@ -112,7 +113,6 @@
       flexdashboard
     ]; };
   in [
-    firefox
     gnomeExtensions.appindicator
     gnomeExtensions.pop-shell
     fira-code
