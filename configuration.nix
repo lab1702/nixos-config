@@ -115,6 +115,7 @@
     firefox
     gnome-extension-manager
     gnomeExtensions.appindicator
+    gnomeExtensions.pop-shell
     fira-code
     git
     cmake
