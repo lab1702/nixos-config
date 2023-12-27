@@ -130,6 +130,8 @@
     vim-full
     emacs
     vscode-fhs
+    neovim
+    helix
     hexyl
     bvi
     gnuplot
