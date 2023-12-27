@@ -2,10 +2,11 @@
 
 My NixOS configuration files
 
-Initial config on fresh installation of NixOS
+## Download file
 
-    cd
-    nix-env -i git
-    git clone https://github.com/lab1702/nixos-config.git
-    sudo cp nixos-config/configuration.nix /etc/nixos/configuration.nix
+    curl https://raw.githubusercontent.com/lab1702/nixos-config/main/configuration.nix -o configuration.nix
+
+## Uncomment one of the boot loader options before copying to /etc/nixos
+
+    sudo cp configuration.nix /etc/nixos/configuration.nix
     sudo nixos-rebuild switch
