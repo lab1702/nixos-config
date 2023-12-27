@@ -170,7 +170,6 @@
     obs-studio
     bitwarden
     discord
-    steam
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
