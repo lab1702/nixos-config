@@ -166,6 +166,7 @@
     hercules
     x3270
     obs-studio
+    bitwarden
     discord
     steam
   ];
