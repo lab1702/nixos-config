@@ -121,7 +121,7 @@
     gnomeExtensions.pop-shell
     fira-code
     git
-    make
+    gnumake
     cmake
     curl
     wget
